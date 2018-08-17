@@ -1,0 +1,8 @@
+2018-08-13T23:35:51+00:00 CRITICAL Uncaught Error: Call to undefined function do_shortcut() in C:\xampp\htdocs\wordpress\wp-content\themes\shop-isle\front-page.php:54
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(74): include()
+#1 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown
+

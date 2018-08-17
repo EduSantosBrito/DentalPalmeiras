@@ -1,0 +1,26 @@
+2018-08-07T11:09:55+00:00 CRITICAL Maximum execution time of 90 seconds exceeded
+
+2018-08-07T11:34:26+00:00 CRITICAL Uncaught Error: Call to undefined function do_shortcut() in C:\xampp\htdocs\wordpress\wp-content\themes\shop-isle\inc\structure\footer.php:84
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): shop_isle_footer_copyright_and_socials('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\shop-isle\footer.php(13): do_action('shop_isle_foote...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(76): locate_template(Array, true)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\shop-isle\front-page.php(54): get_footer()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(74): include('C:\\xampp
+
+2018-08-07T11:34:53+00:00 CRITICAL Uncaught Error: Call to undefined function do_shortcut() in C:\xampp\htdocs\wordpress\wp-content\themes\shop-isle\inc\structure\footer.php:84
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): shop_isle_footer_copyright_and_socials('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\shop-isle\footer.php(13): do_action('shop_isle_foote...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(76): locate_template(Array, true)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\shop-isle\front-page.php(54): get_footer()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(74): include('C:\\xampp
+

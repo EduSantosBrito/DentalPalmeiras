@@ -79,7 +79,7 @@ class Social_Sharing_OBFX_Module extends Orbit_Fox_Module_Abstract {
 				'link'     => 'https://api.whatsapp.com/send?phone=5532998228385',
 				'nicename' => 'WhatsApp',
 				'icon'     => 'whatsapp',
-				'target'   => '0',
+				'target'   => '_blank',
 			),
 			'mail'     => array(
 				'link'     => 'mailto:?&subject=' . $post_title . '&body=' . $post_link,

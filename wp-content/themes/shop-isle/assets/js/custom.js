@@ -574,8 +574,13 @@
 		var navbarHome       = $( '.navbar-color-on-scroll' ),
 			headerWithTopbar = 0;
 
+		var liNavbar = $('.menu-item a');
+		
 		if ( navbarHome.hasClass( 'header-with-topbar' ) ) {
 			headerWithTopbar = 40;
+		}
+		if( navbarHome.hasClass('navbar-transparent')){
+			liNavbar.addClass('onTransparent');
 		}
 
 		$( window ).on(
@@ -586,12 +591,18 @@
 							transparent = false;
 							navbarHome.removeClass( 'navbar-transparent' );
 							navbarHome.addClass( 'navbar-not-transparent' );
+							liNavbar.removeClass('onTransparent');
+							liNavbar.addClass('onNotTransparent');
+						
 						}
 					} else {
 						if ( ! transparent) {
 							transparent = true;
 							navbarHome.addClass( 'navbar-transparent' );
 							navbarHome.removeClass( 'navbar-not-transparent' );
+							liNavbar.removeClass('onNotTransparent');
+							liNavbar.addClass('onTransparent');
+							
 						}
 					}
 				}, 17

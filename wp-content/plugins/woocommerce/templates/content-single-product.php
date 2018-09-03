@@ -57,6 +57,8 @@ if ( post_password_required() ) {
 			 */
 			do_action( 'woocommerce_single_product_summary' );
 		?>
+		<button href="https://api.whatsapp.com/send?phone=5532998228385" style="width: 250px; heigth: 50px; background-color:#20b038; border:none;"><i class="socicon-whatsapp" style="color: white; font-size: 14px;"></i> <span style="color:white">Pedir pelo WhatsApp</span></button>
+					
 	</div>
 
 	<?php

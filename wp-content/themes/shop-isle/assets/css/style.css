@@ -2279,14 +2279,14 @@ body.admin-bar .navbar {
 }
 
 .page .navbar-custom {
-	background-color: rgba(10, 10, 10, 0.9) !important;
+	background-color: white !important;
 }
 .navbar-custom {
 	z-index: 1000;
 	padding: 10px 0;
 	border: 0;
 	border-radius: 0;
-	background-color: rgba(10, 10, 10, 0.9);
+	background-color: white;
 	font-family: "Roboto Condensed", sans-serif;
 	font-size: 11px;
 	letter-spacing: 3px;
@@ -2307,6 +2307,12 @@ body.admin-bar .navbar {
 	border-radius: 0;
 	background: rgba(26, 26, 26, 0.9);
 	box-shadow: none;
+}
+.navbar-custom .sub-menu li a:not(.onTransparent) {
+	background: white;
+}
+.navbar-custom .sub-menu li a:not(.onTransparent):hover {
+	background: white !important;
 }
 
 .navbar-custom .navbar-brand {
@@ -3264,6 +3270,7 @@ Team
 .team-image {
 	overflow: hidden;
 	position: relative;
+	height:280px;
 }
 
 .team-image img {
@@ -4504,6 +4511,7 @@ Shope item
 .shop-item-image {
 	overflow: hidden;
 	position: relative;
+	height:250px;
 }
 
 .shop-item-image img {
@@ -4788,6 +4796,12 @@ Scroll to top
 .header-menu-wrap {
 	display: table-cell !important;
 	vertical-align: middle;
+}
+.menu-item a:not(.onTransparent){
+	color: #0C6CD4 !important;
+}
+.menu-item a:not(.onTransparent):hover{
+	color: #24347C !important;
 }
 .navbar-header {
 	display: table-cell !important;

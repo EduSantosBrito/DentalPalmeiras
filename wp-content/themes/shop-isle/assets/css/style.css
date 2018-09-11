@@ -1838,7 +1838,7 @@ button[type="submit"]:hover {
 
 .btn.btn-b {
 	color: #fff;
-	background: rgba(17, 17, 17, 1);
+	background: #24347C;
 }
 
 .btn.btn-b:hover,
@@ -2083,7 +2083,7 @@ button[type="submit"]:hover {
 }
 
 .bg-dark {
-	background-color: #111 !important;
+	background-color: #24347C !important;
 }
 
 .bg-dark-30:before {
@@ -2922,7 +2922,7 @@ Sections
 
 .divider-d {
 	margin: 0;
-	border-top: 1px solid #202020;
+	border-top: 1px solid #24347C;
 }
 
 /* Half-image */

@@ -621,7 +621,7 @@ if ( ! function_exists( 'shop_isle_about_page_display_advantages' ) ) :
 
 			if ( ! empty( $shop_isle_advantages_decoded ) ) :
 
-				echo '<div class="row multi-columns-row">';
+				echo '<div class="row">';
 
 				foreach ( $shop_isle_advantages_decoded as $shop_isle_advantage ) :
 
@@ -629,7 +629,7 @@ if ( ! function_exists( 'shop_isle_about_page_display_advantages' ) ) :
 					$text       = ! empty( $shop_isle_advantage->text ) ? apply_filters( 'shop_isle_translate_single_string', $shop_isle_advantage->text, 'Advantages section' ) : '';
 					$subtext    = ! empty( $shop_isle_advantage->subtext ) ? apply_filters( 'shop_isle_translate_single_string', $shop_isle_advantage->subtext, 'Advantages section' ) : '';
 
-					echo '<div class="col-sm-6 col-md-3 col-lg-3">';
+					echo '<div class="col-sm-6 col-md-4 col-lg-4">';
 					echo '<div class="features-item">';
 
 					if ( ! empty( $icon_value ) ) :

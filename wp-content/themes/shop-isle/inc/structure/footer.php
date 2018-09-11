@@ -47,19 +47,19 @@ if ( ! function_exists( 'shop_isle_footer_copyright_and_socials' ) ) {
 					<?php
 					/* Copyright */
 					$shop_isle_copyright = apply_filters( 'shop_isle_footer_copyright_filter', get_theme_mod( 'shop_isle_copyright' ) );
-					echo '<div class="col-sm-6">';
+					echo '<div class="col-sm-9">';
 					if ( ! empty( $shop_isle_copyright ) ) :
-						echo '<p class="copyright font-alt">' . $shop_isle_copyright . '</p>';
+						echo '<p class="copyright">' . $shop_isle_copyright . '</p>';
 						endif;
 
 						$shop_isle_site_info_hide = apply_filters( 'shop_isle_footer_socials_filter', get_theme_mod( 'shop_isle_site_info_hide' ) );
 					if ( isset( $shop_isle_site_info_hide ) && $shop_isle_site_info_hide != 1 ) {
-						echo apply_filters( 'shop_isle_site_info', '<p class="shop-isle-poweredby-box"><a class="shop-isle-poweredby" href="http://themeisle.com/themes/shop-isle/" rel="nofollow">ShopIsle </a>' . __( 'powered by', 'shop-isle' ) . '<a class="shop-isle-poweredby" href="http://wordpress.org/" rel="nofollow"> WordPress</a></p>' );
+						echo apply_filters( 'shop_isle_site_info', '' );
 					}
 					echo '</div>';
 
 					/* Socials icons */
-					echo '<div class="col-sm-6">';
+					echo '<div class="col-sm-3">';
 					shop_isle_footer_display_socials();
 					echo '</div>';
 					?>

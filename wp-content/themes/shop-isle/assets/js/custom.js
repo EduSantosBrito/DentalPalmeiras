@@ -193,11 +193,6 @@
 						'click mouseover', function() {
 							var MenuLeftOffset  = $( '.sub-menu', $( this ) ).offset().left;
 							var Menu1LevelWidth = $( '.sub-menu', $( this ) ).width();
-							if (width - MenuLeftOffset < Menu1LevelWidth * 2) {
-								$( this ).children( '.sub-menu' ).addClass( 'leftauto' );
-							} else {
-								$( this ).children( '.sub-menu' ).removeClass( 'leftauto' );
-							}
 							if ($( '.menu-item-has-children', $( this ) ).length > 0) {
 								var Menu2LevelWidth = $( '.sub-menu', $( this ) ).width();
 								if (width - MenuLeftOffset - Menu1LevelWidth < Menu2LevelWidth) {

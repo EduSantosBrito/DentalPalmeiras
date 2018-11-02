@@ -643,7 +643,7 @@ if ( ! function_exists( 'shop_isle_about_page_display_advantages' ) ) :
 					endif;
 
 					if ( ! empty( $subtext ) ) :
-						echo wp_kses_post( $subtext );
+						echo '<span class="features-text">' . wp_kses_post( $subtext ) . '</span>';
 					endif;
 
 					echo '</div>';

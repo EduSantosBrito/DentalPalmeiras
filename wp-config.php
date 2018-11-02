@@ -20,13 +20,13 @@
 
 // ** Configurações do MySQL - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define('DB_NAME', 'wp_dental-palmeiras');
+define('DB_NAME', 'dentalpalmeiras_com_br_wp');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'root');
+define('DB_USER', 'dentalpalmeiras');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'dental99');
 
 /** Nome do host do MySQL */
 define('DB_HOST', 'localhost');

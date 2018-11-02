@@ -2288,7 +2288,7 @@ body.admin-bar .navbar {
 	border-radius: 0;
 	background-color: white;
 	font-family: "Roboto Condensed", sans-serif;
-	font-size: 11px;
+	font-size: 14px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	-webkit-transition: background, padding 0.4s ease-in-out 0s;
@@ -2313,6 +2313,18 @@ body.admin-bar .navbar {
 }
 .navbar-custom .sub-menu li a:not(.onTransparent):hover {
 	background: white !important;
+}
+.sub-menu li:nth-last-child(1) {
+	background-color: #24347C;
+}
+
+.sub-menu li:nth-last-child(1) a:not(.onTransparent)  {
+	background: #24347C !important;
+	color: white !important;
+}
+.sub-menu li:nth-last-child(1) a:not(.onTransparent):hover {
+	background: #24347C !important;
+	color: rgba(255, 255, 255, 0.7) !important;
 }
 
 .navbar-custom .navbar-brand {
@@ -3090,6 +3102,7 @@ footer.footer {
 
 .copyright {
 	margin: 0;
+	font-size: 10px !important;
 }
 
 .footer-social-links {
@@ -3171,9 +3184,19 @@ Google map
 Services, Content box
 ------------------------------------------------------------------- */
 
+
 .features-item {
 	margin: 20px 0;
+	
+}
+
+.features-icon, .features-title {
 	text-align: center;
+}
+
+.features-text {
+	text-align: justify !important;
+	font-size: 16px;
 }
 
 .features-icon,
@@ -5526,7 +5549,7 @@ Responsive Media Querries
 	}
 
 /* Features */
-
+	
 	.features-item {
 		margin: 0 0 30px;
 	}
